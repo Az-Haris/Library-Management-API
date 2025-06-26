@@ -48,6 +48,7 @@ src/
 git clone https://github.com/your-username/library-management-api.git
 cd library-management-api
 npm install
+```
 
 ---
 
@@ -57,3 +58,7 @@ npm install
 
 ```bash
 npm run dev
+```
+
+---
+
