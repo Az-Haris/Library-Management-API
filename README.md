@@ -26,12 +26,7 @@ A simple and structured Library Management System built with **Express**, **Type
 
 ## 📁 Project Structure
 
-* `library-management-api`
-  * `src/`
-    * `app/`
-      * `controllers/`
-        * `book.controller.ts`
-        *  `borrow.controller.ts`
+```bash
 src/
 ├── app/
 │ └── controllers/
@@ -45,6 +40,7 @@ src/
 │       └── borrow.model.ts
 ├── app.ts
 ├── server.ts
+```
 
 ---
 
