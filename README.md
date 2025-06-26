@@ -64,3 +64,97 @@ npm run dev
 
 ---
 
+## 📌 API Endpoints
+
+1. Create Book
+
+```bash
+POST /api/books
+```
+
+2. Get All Books
+
+```bash
+GET /api/books?filter=FANTASY&sortBy=createdAt&sort=desc&limit=5
+```
+
+3. Get Book by ID
+
+```bash
+GET /api/books/:bookId
+```
+
+4. Update Book
+
+```bash
+PUT /api/books/:bookId
+```
+
+5. Delete Book
+
+```bash
+DELETE /api/books/:bookId
+```
+
+6. Borrow a Book
+
+```bash
+POST /api/borrow
+```
+
+7. Borrow Summary
+
+```bash
+GET /api/borrow
+```
+
+---
+
+## 📤 Sample Request – Create Book
+
+```bash
+POST /api/books
+{
+  "title": "The Theory of Computation",
+  "author": "Alimuzzaman Haris",
+  "genre": "SCIENCE",
+  "isbn": "9780553380165",
+  "description": "An overview of computation fundamentals.",
+  "copies": 5,
+  "available": true
+}
+```
+
+---
+
+## 📤 Sample Request – Borrow Book
+
+```bash
+POST /api/borrow
+{
+  "book": "64ab3f9e2a4b5c6d7e8f9012",
+  "quantity": 2,
+  "dueDate": "2025-07-18T00:00:00.000Z"
+}
+```
+
+---
+
+## ❗ Error Response Format
+
+```bash
+{
+  "message": "Validation failed",
+  "success": false,
+  "error": {
+    "name": "ValidationError",
+    ...
+  }
+}
+```
+
+---
+
+## 👨‍💻 Author
+
+- Name: MD Alimuzzaman Haris
