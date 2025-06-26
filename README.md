@@ -26,6 +26,12 @@ A simple and structured Library Management System built with **Express**, **Type
 
 ## 📁 Project Structure
 
+* `library-management-api`
+  * `src/`
+    * `app/`
+      * `controllers/`
+        * `book.controller.ts`
+        *  `borrow.controller.ts`
 src/
 ├── app/
 │ └── controllers/
@@ -45,7 +51,7 @@ src/
 ## 📦 Installation
 
 ```bash
-git clone https://github.com/your-username/library-management-api.git
+git clone https://github.com/Az-Haris/Library-Management-API.git
 cd library-management-api
 npm install
 ```
