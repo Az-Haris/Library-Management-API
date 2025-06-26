@@ -132,7 +132,7 @@ POST /api/books
 ```bash
 POST /api/borrow
 {
-  "book": "64ab3f9e2a4b5c6d7e8f9012",
+  "book": "685c02a69b9d4d264a48c6e4",
   "quantity": 2,
   "dueDate": "2025-07-18T00:00:00.000Z"
 }
